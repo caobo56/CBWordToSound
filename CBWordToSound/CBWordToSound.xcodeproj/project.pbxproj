@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8574DAF20197095008055DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8574DAE20197095008055DA /* AppDelegate.m */; };
+		A8574DB220197095008055DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8574DB120197095008055DA /* ViewController.m */; };
+		A8574DB520197095008055DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8574DB320197095008055DA /* Main.storyboard */; };
+		A8574DB720197095008055DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8574DB620197095008055DA /* Assets.xcassets */; };
+		A8574DBA20197095008055DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8574DB820197095008055DA /* LaunchScreen.storyboard */; };
+		A8574DBD20197095008055DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8574DBC20197095008055DA /* main.m */; };
+		A8574DC720197095008055DA /* CBWordToSoundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8574DC620197095008055DA /* CBWordToSoundTests.m */; };
+		A8574DD220197095008055DA /* CBWordToSoundUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8574DD120197095008055DA /* CBWordToSoundUITests.m */; };
+		A8574DE1201970D2008055DA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8574DE0201970D2008055DA /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8574DC320197095008055DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8574DA220197095008055DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8574DA920197095008055DA;
+			remoteInfo = CBWordToSound;
+		};
+		A8574DCE20197095008055DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8574DA220197095008055DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8574DA920197095008055DA;
+			remoteInfo = CBWordToSound;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8574DAA20197095008055DA /* CBWordToSound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBWordToSound.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8574DAD20197095008055DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A8574DAE20197095008055DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A8574DB020197095008055DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A8574DB120197095008055DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A8574DB420197095008055DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8574DB620197095008055DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8574DB920197095008055DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8574DBB20197095008055DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8574DBC20197095008055DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8574DC220197095008055DA /* CBWordToSoundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CBWordToSoundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8574DC620197095008055DA /* CBWordToSoundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBWordToSoundTests.m; sourceTree = "<group>"; };
+		A8574DC820197095008055DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8574DCD20197095008055DA /* CBWordToSoundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CBWordToSoundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8574DD120197095008055DA /* CBWordToSoundUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBWordToSoundUITests.m; sourceTree = "<group>"; };
+		A8574DD320197095008055DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8574DE0201970D2008055DA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8574DA720197095008055DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8574DE1201970D2008055DA /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8574DBF20197095008055DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8574DCA20197095008055DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8574DA120197095008055DA = {
+			isa = PBXGroup;
+			children = (
+				A8574DAC20197095008055DA /* CBWordToSound */,
+				A8574DC520197095008055DA /* CBWordToSoundTests */,
+				A8574DD020197095008055DA /* CBWordToSoundUITests */,
+				A8574DAB20197095008055DA /* Products */,
+				A8574DDF201970D2008055DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A8574DAB20197095008055DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8574DAA20197095008055DA /* CBWordToSound.app */,
+				A8574DC220197095008055DA /* CBWordToSoundTests.xctest */,
+				A8574DCD20197095008055DA /* CBWordToSoundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8574DAC20197095008055DA /* CBWordToSound */ = {
+			isa = PBXGroup;
+			children = (
+				A8574DAD20197095008055DA /* AppDelegate.h */,
+				A8574DAE20197095008055DA /* AppDelegate.m */,
+				A8574DB020197095008055DA /* ViewController.h */,
+				A8574DB120197095008055DA /* ViewController.m */,
+				A8574DB320197095008055DA /* Main.storyboard */,
+				A8574DB620197095008055DA /* Assets.xcassets */,
+				A8574DB820197095008055DA /* LaunchScreen.storyboard */,
+				A8574DBB20197095008055DA /* Info.plist */,
+				A8574DBC20197095008055DA /* main.m */,
+			);
+			path = CBWordToSound;
+			sourceTree = "<group>";
+		};
+		A8574DC520197095008055DA /* CBWordToSoundTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8574DC620197095008055DA /* CBWordToSoundTests.m */,
+				A8574DC820197095008055DA /* Info.plist */,
+			);
+			path = CBWordToSoundTests;
+			sourceTree = "<group>";
+		};
+		A8574DD020197095008055DA /* CBWordToSoundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8574DD120197095008055DA /* CBWordToSoundUITests.m */,
+				A8574DD320197095008055DA /* Info.plist */,
+			);
+			path = CBWordToSoundUITests;
+			sourceTree = "<group>";
+		};
+		A8574DDF201970D2008055DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8574DE0201970D2008055DA /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8574DA920197095008055DA /* CBWordToSound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8574DD620197095008055DA /* Build configuration list for PBXNativeTarget "CBWordToSound" */;
+			buildPhases = (
+				A8574DA620197095008055DA /* Sources */,
+				A8574DA720197095008055DA /* Frameworks */,
+				A8574DA820197095008055DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CBWordToSound;
+			productName = CBWordToSound;
+			productReference = A8574DAA20197095008055DA /* CBWordToSound.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8574DC120197095008055DA /* CBWordToSoundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8574DD920197095008055DA /* Build configuration list for PBXNativeTarget "CBWordToSoundTests" */;
+			buildPhases = (
+				A8574DBE20197095008055DA /* Sources */,
+				A8574DBF20197095008055DA /* Frameworks */,
+				A8574DC020197095008055DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8574DC420197095008055DA /* PBXTargetDependency */,
+			);
+			name = CBWordToSoundTests;
+			productName = CBWordToSoundTests;
+			productReference = A8574DC220197095008055DA /* CBWordToSoundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8574DCC20197095008055DA /* CBWordToSoundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8574DDC20197095008055DA /* Build configuration list for PBXNativeTarget "CBWordToSoundUITests" */;
+			buildPhases = (
+				A8574DC920197095008055DA /* Sources */,
+				A8574DCA20197095008055DA /* Frameworks */,
+				A8574DCB20197095008055DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8574DCF20197095008055DA /* PBXTargetDependency */,
+			);
+			name = CBWordToSoundUITests;
+			productName = CBWordToSoundUITests;
+			productReference = A8574DCD20197095008055DA /* CBWordToSoundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8574DA220197095008055DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = caobo56;
+				TargetAttributes = {
+					A8574DA920197095008055DA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A8574DC120197095008055DA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A8574DA920197095008055DA;
+					};
+					A8574DCC20197095008055DA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A8574DA920197095008055DA;
+					};
+				};
+			};
+			buildConfigurationList = A8574DA520197095008055DA /* Build configuration list for PBXProject "CBWordToSound" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8574DA120197095008055DA;
+			productRefGroup = A8574DAB20197095008055DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8574DA920197095008055DA /* CBWordToSound */,
+				A8574DC120197095008055DA /* CBWordToSoundTests */,
+				A8574DCC20197095008055DA /* CBWordToSoundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8574DA820197095008055DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8574DBA20197095008055DA /* LaunchScreen.storyboard in Resources */,
+				A8574DB720197095008055DA /* Assets.xcassets in Resources */,
+				A8574DB520197095008055DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8574DC020197095008055DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8574DCB20197095008055DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8574DA620197095008055DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8574DB220197095008055DA /* ViewController.m in Sources */,
+				A8574DBD20197095008055DA /* main.m in Sources */,
+				A8574DAF20197095008055DA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8574DBE20197095008055DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8574DC720197095008055DA /* CBWordToSoundTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8574DC920197095008055DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8574DD220197095008055DA /* CBWordToSoundUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8574DC420197095008055DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8574DA920197095008055DA /* CBWordToSound */;
+			targetProxy = A8574DC320197095008055DA /* PBXContainerItemProxy */;
+		};
+		A8574DCF20197095008055DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8574DA920197095008055DA /* CBWordToSound */;
+			targetProxy = A8574DCE20197095008055DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8574DB320197095008055DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8574DB420197095008055DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8574DB820197095008055DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8574DB920197095008055DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8574DD420197095008055DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A8574DD520197095008055DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8574DD720197095008055DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3SLH35FY4;
+				INFOPLIST_FILE = CBWordToSound/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cb.CBWordToSound;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8574DD820197095008055DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3SLH35FY4;
+				INFOPLIST_FILE = CBWordToSound/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cb.CBWordToSound;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A8574DDA20197095008055DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CBWordToSoundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cb.CBWordToSoundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CBWordToSound.app/CBWordToSound";
+			};
+			name = Debug;
+		};
+		A8574DDB20197095008055DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CBWordToSoundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cb.CBWordToSoundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CBWordToSound.app/CBWordToSound";
+			};
+			name = Release;
+		};
+		A8574DDD20197095008055DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CBWordToSoundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cb.CBWordToSoundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CBWordToSound;
+			};
+			name = Debug;
+		};
+		A8574DDE20197095008055DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CBWordToSoundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cb.CBWordToSoundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CBWordToSound;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8574DA520197095008055DA /* Build configuration list for PBXProject "CBWordToSound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8574DD420197095008055DA /* Debug */,
+				A8574DD520197095008055DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8574DD620197095008055DA /* Build configuration list for PBXNativeTarget "CBWordToSound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8574DD720197095008055DA /* Debug */,
+				A8574DD820197095008055DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8574DD920197095008055DA /* Build configuration list for PBXNativeTarget "CBWordToSoundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8574DDA20197095008055DA /* Debug */,
+				A8574DDB20197095008055DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8574DDC20197095008055DA /* Build configuration list for PBXNativeTarget "CBWordToSoundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8574DDD20197095008055DA /* Debug */,
+				A8574DDE20197095008055DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8574DA220197095008055DA /* Project object */;
+}
